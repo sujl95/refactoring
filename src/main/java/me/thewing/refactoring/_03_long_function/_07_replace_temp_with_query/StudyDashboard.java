@@ -68,13 +68,8 @@ public class StudyDashboard {
         try (FileWriter fileWriter = new FileWriter("participants.md");
              PrintWriter writer = new PrintWriter(fileWriter)) {
             participants.sort(Comparator.comparing(Participant::username));
-
             writer.print(header(totalNumberOfEvents, participants.size()));
-
-            participants.forEach(p -> {
-                String markdownForHomework = getMarkdownForParticipant(totalNumberOfEvents, p);
-                writer.print(markdownForHomework);
-            });
+            participants.forEach(p -> writer.print(getMarkdownForParticipant(totalNumberOfEvents, p)));
         }
     }
 
