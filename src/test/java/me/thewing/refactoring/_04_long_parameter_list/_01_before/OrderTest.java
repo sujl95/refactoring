@@ -1,8 +1,8 @@
 package me.thewing.refactoring._04_long_parameter_list._01_before;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class OrderTest {
 
