@@ -1,8 +1,8 @@
 package me.thewing.refactoring._06_mutable_data._20_remove_setting_method;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class PersonTest {
 
