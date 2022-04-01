@@ -8,13 +8,12 @@ class PersonTest {
 
     @Test
     void person() {
-        Person person = new Person();
-        person.setId(10);
-        person.setName("keesun");
+        Person person = new Person(10);
+        person.setName("sungjun");
         assertEquals(10, person.getId());
-        assertEquals("keesun", person.getName());
-        person.setName("whiteship");
-        assertEquals("whiteship", person.getName());
+        assertEquals("sungjun", person.getName());
+        person.setName("thewing");
+        assertEquals("thewing", person.getName());
     }
 
 }
