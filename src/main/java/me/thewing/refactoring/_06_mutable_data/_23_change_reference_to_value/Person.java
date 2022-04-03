@@ -9,7 +9,7 @@ public class Person {
     }
 
     public void officeAreaCode(String areaCode) {
-        this.officeTelephoneNumber.areaCode(areaCode);
+        this.officeTelephoneNumber = new TelephoneNumber(areaCode, this.officeNumber());
     }
 
     public String officeNumber() {
@@ -17,7 +17,7 @@ public class Person {
     }
 
     public void officeNumber(String number) {
-        this.officeTelephoneNumber.number(number);
+        this.officeTelephoneNumber = new TelephoneNumber(this.officeAreaCode(), number);
     }
 
 }
