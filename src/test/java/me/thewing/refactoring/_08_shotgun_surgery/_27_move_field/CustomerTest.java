@@ -1,8 +1,8 @@
 package me.thewing.refactoring._08_shotgun_surgery._27_move_field;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class CustomerTest {
 
