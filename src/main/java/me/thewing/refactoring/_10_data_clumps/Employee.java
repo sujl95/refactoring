@@ -3,19 +3,15 @@ package me.thewing.refactoring._10_data_clumps;
 public class Employee {
 
     private String name;
+    private TelephoneNumber employeeTelephoneNumber;
 
-    private String personalAreaCode;
-
-    private String personalNumber;
-
-    public Employee(String name, String personalAreaCode, String personalNumber) {
+    public Employee(String name, TelephoneNumber employeeTelephoneNumber) {
         this.name = name;
-        this.personalAreaCode = personalAreaCode;
-        this.personalNumber = personalNumber;
+        this.employeeTelephoneNumber = employeeTelephoneNumber;
     }
 
     public String personalPhoneNumber() {
-        return personalAreaCode + "-" + personalNumber;
+        return employeeTelephoneNumber.getAreaCode() + "-" + employeeTelephoneNumber.getNumber();
     }
 
     public String getName() {
@@ -27,18 +23,18 @@ public class Employee {
     }
 
     public String getPersonalAreaCode() {
-        return personalAreaCode;
+        return employeeTelephoneNumber.getAreaCode();
     }
 
     public void setPersonalAreaCode(String personalAreaCode) {
-        this.personalAreaCode = personalAreaCode;
+        employeeTelephoneNumber.setAreaCode(personalAreaCode);
     }
 
     public String getPersonalNumber() {
-        return personalNumber;
+        return employeeTelephoneNumber.getNumber();
     }
 
     public void setPersonalNumber(String personalNumber) {
-        this.personalNumber = personalNumber;
+        employeeTelephoneNumber.setNumber(personalNumber);
     }
 }
