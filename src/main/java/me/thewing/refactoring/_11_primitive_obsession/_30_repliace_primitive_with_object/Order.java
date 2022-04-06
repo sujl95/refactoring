@@ -2,13 +2,17 @@ package me.thewing.refactoring._11_primitive_obsession._30_repliace_primitive_wi
 
 public class Order {
 
-    private String priority;
+    private Priority priority;
 
-    public Order(String priority) {
+    public Order(String priorityValue) {
+        this(new Priority(priorityValue));
+    }
+
+    public Order(Priority priority) {
         this.priority = priority;
     }
 
-    public String getPriority() {
+    public Priority getPriority() {
         return priority;
     }
 }
