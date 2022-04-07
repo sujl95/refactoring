@@ -1,16 +1,15 @@
 package me.thewing.refactoring._11_primitive_obsession._32_replace_conditional_with_polymorphism.variation;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class VoyageRatingTest {
 
     @Test
     void westIndies() {
-        VoyageRating voyageRating = new VoyageRating(new Voyage("west-inides", 10),
+        VoyageRating voyageRating = RatingFactory.createRating(new Voyage("west-inides", 10),
                 List.of(new VoyageHistory("east-indies", 5),
                         new VoyageHistory("west-indies", 15),
                         new VoyageHistory("china", -2),
@@ -20,7 +19,7 @@ class VoyageRatingTest {
 
     @Test
     void china() {
-        VoyageRating voyageRating = new VoyageRating(new Voyage("china", 10),
+        VoyageRating voyageRating = RatingFactory.createRating(new Voyage("china", 10),
                 List.of(new VoyageHistory("east-indies", 5),
                         new VoyageHistory("west-indies", 15),
                         new VoyageHistory("china", -2),
