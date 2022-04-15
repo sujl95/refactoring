@@ -1,8 +1,8 @@
 package me.thewing.refactoring._12_repeated_swtiches;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class SwitchImprovementsTest {
 
