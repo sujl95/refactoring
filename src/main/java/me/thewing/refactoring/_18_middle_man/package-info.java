@@ -1,0 +1,1 @@
+package me.thewing.refactoring._18_middle_man;
