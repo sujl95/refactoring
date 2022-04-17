@@ -6,6 +6,8 @@ public class Person {
 
     private Department department;
 
+    private Person mananger;
+
     public Person(String name) {
         this.name = name;
     }
@@ -20,5 +22,10 @@ public class Person {
 
     public void setDepartment(Department department) {
         this.department = department;
+    }
+
+    public Person getManager() {
+        this.mananger = getDepartment().getManager();
+        return mananger;
     }
 }

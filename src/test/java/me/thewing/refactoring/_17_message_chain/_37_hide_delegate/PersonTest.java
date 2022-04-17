@@ -1,8 +1,8 @@
 package me.thewing.refactoring._17_message_chain._37_hide_delegate;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class PersonTest {
 
@@ -12,7 +12,7 @@ class PersonTest {
         Person nick = new Person("nick");
         keesun.setDepartment(new Department("m365deploy", nick));
 
-        Person manager = keesun.getDepartment().getManager();
+        Person manager = keesun.getManager();
         assertEquals(nick, manager);
     }
 
