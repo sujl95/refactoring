@@ -28,3 +28,18 @@
 - 위임 숨기기 (Hide Delegate)
 - 중재자 제거하기 (Remove Middle Man)
 - **알고리듬 교체하기 (Substitute Algorithm)**
+
+# 카탈로그 3. 기능 옮기기
+
+## 함수나 필드 또는 문장을 적절한 위치로 옮기는 기술
+
+- 함수 옮기기 (Move Function)
+- 필드 옮기기 (Move Field)
+- **문장을 함수로 옮기기 (Move Statements into Function)**
+- **문장을 호출한 곳으로 옮기기 (Move Statements to Callers)**
+- **인라인 코드를 함수 호출로 바꾸기 (Replace Inline Code with Function Call)**
+- 문장 슬라이드하기 (Slide Statements)
+- 반복문 쪼개기 (Split Loop)
+- 반복문을 파이프라인으로 바꾸기 (Replace Loop with Pipeline)
+- 죽은 코드 제거하기 (Remove Dead Code)
+
