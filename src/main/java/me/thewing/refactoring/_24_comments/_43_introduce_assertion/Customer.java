@@ -13,6 +13,7 @@ public class Customer {
     }
 
     public void setDiscountRate(Double discountRate) {
+        assert discountRate != null && discountRate > 0;
         this.discountRate = discountRate;
     }
 }
