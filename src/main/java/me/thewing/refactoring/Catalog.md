@@ -43,3 +43,12 @@
 - 반복문을 파이프라인으로 바꾸기 (Replace Loop with Pipeline)
 - 죽은 코드 제거하기 (Remove Dead Code)
 
+# 카탈로그 4. 데이터 조직화
+
+## 데이터 구조를 다루는 기술
+
+- 변수 쪼개기 (Split Variable)
+- 필드 이름 바꾸기 (Rename Field)
+- 파생 변수를 질의 함수로 바꾸기 (Replace Derived Variable with Query)
+- **참조를 값으로 바꾸기 (Change References to Value)**
+- **값을 참조로 바꾸기 (Change Value to Reference)**
