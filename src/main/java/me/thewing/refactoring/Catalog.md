@@ -63,3 +63,19 @@
 - 조건부 로직을 다형성으로 바꾸기 (Replace Conditional with Polymorphism)
 - 특이 케이스 추가하기 (Introduce Special Case)
 - 어서션 추가하기 (Introduce Assertion)
+
+# 카탈로그 6. API 리팩토링
+
+## 쉽고 이해하고 사용할 수 있는 API를 만드는 기술
+
+- 질의 함수와 변경 함수 분리하기 (Separate Query from Modifier)
+- **함수 매개변수화하기 (Parameterize Function)**
+- 플래그 인수 제거하기 (Remove Flag Argument)
+- 객체 통째로 넘기기 (Preserve Whole Object)
+- 매개변수를 질의 함수로 바꾸기 (Replace Parameter with Query)
+- **질의 함수를 매개변수로 바꾸기 (Replace Query with Parameter)**
+- 세터 제거하기 (Remove Setting Method)
+- **생성자를 팩토리 함수로 바꾸기 (Replace Constructor with Factory Function)**
+- 함수를 명령으로 바꾸기 (Replace Function with Command)
+- **명령을 함수로 바꾸기 (Replace Command with Function)**
+
