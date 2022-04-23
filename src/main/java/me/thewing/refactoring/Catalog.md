@@ -79,3 +79,19 @@
 - 함수를 명령으로 바꾸기 (Replace Function with Command)
 - **명령을 함수로 바꾸기 (Replace Command with Function)**
 
+# 카탈로그 7. 상속 다루기
+
+## 상속을 제대로 사용하는 기술
+
+- 메소드 올리기 (Pull Up Method)
+- **필드 올리기 (Pull Up Field)**
+- **생성자 본문 올리기 (Pull Up Constructor Body)**
+- 메서드 내리기 (Push Down Method)
+- 필드 내리기 (Push Down Field)
+- 타입 코드를 서브클래스로 바꾸기 (Replace Type Code with Subclasses)
+- **서브클래스 제거하기 (Remove Subclass)**
+- 슈퍼클래스 추출하기 (Extract Superclass)
+- 계층 합치기 (Collapse Hierarchy)
+- 서브클래스를 위임으로 바꾸기 (Replace Subclass with Delegate)
+- 슈퍼클래스를 위임으로 바꾸기 (Replace Superclass with Delegate)
+
